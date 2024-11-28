@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 const app = express(); // Initialize Express app
-const PORT = process.env.PORT || 5000; // Use environment PORT or default to 5000
+const PORT = process.env.PORT || 5050; // Use environment PORT or default to 5000
 
 // Middleware
 app.use(bodyParser.json()); // Parse incoming JSON requests
