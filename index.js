@@ -12,7 +12,7 @@ app.use(cors()); // Enable Cross-Origin Resource Sharing
 
 // Routes
 app.get("/", (req, res) => {
-  res.send("Welcome to NexGen Learning Backend!"); // Test endpoint
+  res.send("Welcome to NexGen Learning Backend AK !"); // Test endpoint
 });
 
 // Example API for user registration
