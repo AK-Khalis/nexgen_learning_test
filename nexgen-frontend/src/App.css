@@ -1,0 +1,122 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eef5ff; /* Light blue background */
+  color: #333;
+}
+
+/* App Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background-color: #4a90e2; /* Strong blue */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #3a78c7; /* Slightly darker blue for contrast */
+}
+
+.header .logo {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Main Content */
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.form-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+  max-width: 400px;
+  width: 100%;
+  border-top: 4px solid #4a90e2; /* Light blue accent */
+}
+
+.form-container h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #4a90e2; /* Matching blue for title */
+}
+
+.subtext {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Buttons */
+.button {
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s, opacity 0.3s;
+}
+
+.button.primary {
+  background-color: #4a90e2; /* Strong blue */
+  color: white;
+}
+
+.button.secondary {
+  background-color: #50c878; /* Fresh green */
+  color: white;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+/* Message Styling */
+.message {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #e3f2ff; /* Very light blue */
+  border-left: 4px solid #4a90e2; /* Accent border */
+  color: #333;
+  border-radius: 4px;
+}
+
+/* Footer */
+.footer {
+  background-color: #4a90e2; /* Strong blue */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+  border-top: 3px solid #3a78c7; /* Slightly darker accent */
+}
